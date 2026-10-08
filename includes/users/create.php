@@ -72,7 +72,7 @@ function create_user (){
             $errores [] = "Ingrese un apellido";
         }
         if (!$email){
-            $errores [] = "Ingrese un numero de correo";
+            $errores [] = "Ingrese un nombre de correo";
         }
         if (!$password){
             $errores [] = "Ingrese una contraseña";
